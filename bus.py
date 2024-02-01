@@ -12,7 +12,7 @@ def bus_info(bus_code, point):
         del info["result_code"]
         del info["weekday_interval"]
         del info[ "start_time_at_end_point"]
-        del info["holiday_interval"]
+        del info["holiday_interval"]    
         del info["start_time_at_start_point"]
         del info["line_type"]
         del info["end_time_at_end_point"]

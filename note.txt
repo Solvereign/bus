@@ -1,0 +1,14 @@
+buudal = node
+{
+    station_id: String,
+    station_name: String,
+    longitude, latitude?
+    connected_to: [custom_buudal],
+    
+}
+
+custom_buudal :
+{
+    station_id: String,
+    buses: [line_id]
+}
